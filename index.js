@@ -1,3 +1,4 @@
+let num=6;
 function isPrime(num) {
     if (num <= 1) {
       return false;
@@ -19,4 +20,15 @@ function isPrime(num) {
     }
   
     return true;
+  }
+  console.log(isPrime(num))
+
+  ///checkeven odd
+  if(num%2==0)
+  {
+    console.log("Even")
+  }
+  else
+  {
+    console.log("Odd")
   }
